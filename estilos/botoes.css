@@ -1,0 +1,104 @@
+#botaoHome{
+    background-color: #264560;
+    color: white;
+    height: 55px;
+    width: 240px;
+    font-family: 'anticslab';
+    font-size: small;
+    text-align: center;
+    margin-left: 0px;
+    display: inline-block;
+}
+#botaoHome:hover{
+    background-color: #5bb2ff6d ;
+}
+#botaoHome:active{
+    background-color: #1e5a8b;
+}
+#botaoConsulta{
+    height: 55px;
+    width: 240px;
+    background-color: #264560;
+    font-family: 'anticslab';
+    font-size: small;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+    display: inline-block;
+}
+#botaoConsulta:hover{
+    background-color: #5bb2ff6d ;
+}
+#botaoConsulta:active{
+    background-color: #1e5a8b;
+}
+#botaoLogin{
+    height: 55px;
+    width: 240px;
+    background-color: #264560;
+    font-family: 'anticslab';
+    font-size: small;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+    display: inline-block;
+}
+#botaoLogin:hover{
+    background-color: #5bb2ff6d ;
+}
+#botaoLogin:active{
+    background-color: #1e5a8b;
+}
+#botaoSobrenos{
+    height: 55px;
+    width: 240px;
+    background-color: #264560;
+    font-family: 'anticslab';
+    font-size: small;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+    display: inline-block;
+}
+#botaoSobrenos:hover{
+    background-color: #5bb2ff6d ;
+}
+#botaoSobrenos:active{
+    background-color: #1e5a8b;
+}
+#botaoCadastro{
+    height: 55px;
+    width: 240px;
+    background-color: #264560;
+    font-family: 'anticslab';
+    font-size: small;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+    display: inline-block;
+}
+#botaoCadastro:hover{
+    background-color: #5bb2ff6d ;
+}
+#botaoCadastro:active{
+    background-color: #1e5a8b;
+}
+#botaoPlanos{
+    height: 55px;
+    width: 240px;
+    background-color: #264560;
+    font-family: 'anticslab';
+    font-size: small;
+    text-align: center;
+    color: white;
+    margin-left: 3px;
+    margin-top: 7px;
+    display: inline-block;
+}
+#botaoPlanos:hover{
+    background-color: #5bb2ff6d ;
+}
+#botaoPlanos:active{
+    background-color: #1e5a8b;
+}
+
