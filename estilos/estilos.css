@@ -1,0 +1,11 @@
+#corFundo{
+    background-color: #E7E7E7;
+}
+#corTextoCamp{
+    color: #EC780B;
+}
+.backImage{
+    background-image: url(../images/BackgroundCadastro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

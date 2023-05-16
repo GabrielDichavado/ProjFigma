@@ -1,0 +1,49 @@
+.container{
+    background-color: aqua;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+#divTest{
+    background-color: aqua;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+#divDir{
+    background-color: darkgreen;
+    border-color: darkgreen;
+    position: absolute; 
+    right: 0px;
+    height: 600px;
+    width: 50%;
+}
+#divPosBotI{
+    background-color: brown;
+    height: 500px;
+    width: 300px;
+    top: 50%;
+    margin-top: -250px;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+}
+#divEsq{
+    background-color: darkmagenta;
+    border-color: darkmagenta;
+    position: absolute; 
+    left: 0px;
+    height: 600px;
+    width: 50%;
+    align-items: center;
+    display: inline-block;
+}
+#divPosImage{
+    height: 550;
+    width: 665;
+    background-color: azure;
+    margin-top: 5%;
+    left: 10%;
+    position: absolute;
+}
