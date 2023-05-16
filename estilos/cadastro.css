@@ -3,8 +3,9 @@
     width: 1000px;
     background-color: black;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
+    margin-top: -250px;
     margin-left: -500px;
     border-radius: 5px;
 }
@@ -49,4 +50,36 @@ input::placeholder{
 }
 #botCad:active{
     background-color: rgb(39, 39, 255);
+}
+#test{
+    color: white;
+    text-align: center;
+    margin-bottom: -25px;
+}
+#testAdm{
+    color: white;
+    text-align: center;
+    display: inline;
+    margin-left: 20px;
+    position: relative;
+}
+#testMed{
+    color: white;
+    text-align: center;
+    display: inline;
+    margin-left: 15px;
+    position: relative;
+}
+#testLog{
+    color: white;
+    text-align: center;
+    display: inline;
+    margin-left: 15px;
+    position: relative;
+}
+#divBaixo{
+    margin-top: 10px;
+    position: absolute;
+    width: 1000px;
+    margin-left: -10px;
 }
