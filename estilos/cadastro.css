@@ -1,7 +1,7 @@
 #blocoCad{
     height: 500px;
     width: 1000px;
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.65);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -10,6 +10,7 @@
     border-radius: 5px;
 }
 #inpCad{
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: #e6e7e9;
     margin-top: 50px;
@@ -34,8 +35,7 @@ input::placeholder{
 }
 #botCad{
     color: white;
-    opacity: 0.8;
-    background-color: rgb(1, 1, 136);
+    background-color: rgb(0, 0, 171);
     margin-left: 10px;
     height: 50px;
     width: 310px;
@@ -43,20 +43,25 @@ input::placeholder{
     border-radius: 5px;
     font-size: 20px;
     text-align: center;
-    font-family: 'anticslab';
+    font-family: Arial, Helvetica, sans-serif;
 }
 #botCad:hover{
-    background-color: rgb(0, 0, 156);
+    background-color: rgb(0, 0, 133);
 }
 #botCad:active{
-    background-color: rgb(39, 39, 255);
+    background-color: rgb(0, 0, 78);
 }
 #test{
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
     margin-bottom: -25px;
+    font-size: 20px;
 }
 #testAdm{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
     color: white;
     text-align: center;
     display: inline;
@@ -64,6 +69,9 @@ input::placeholder{
     position: relative;
 }
 #testMed{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
     display: inline;
@@ -71,6 +79,9 @@ input::placeholder{
     position: relative;
 }
 #testLog{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
     color: white;
     text-align: center;
     display: inline;
@@ -78,8 +89,16 @@ input::placeholder{
     position: relative;
 }
 #divBaixo{
-    margin-top: 10px;
+    margin-top: 30px;
     position: absolute;
     width: 1000px;
     margin-left: -10px;
+}
+#decorBot{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#decorBot:hover{
+    color: blue;
 }
