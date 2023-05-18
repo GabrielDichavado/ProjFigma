@@ -129,9 +129,25 @@
     border-radius: 2px;
 }
 #triangulo1{
+    position: absolute;
     width: 0;
     height: 0;
-    border-bottom: 100px solid transparent;
-    border-left: 100px solid red;
-    margin-left: 1200px;
-  }
+    border-bottom: 80px solid transparent;
+    border-left: 80px solid #eb7134;
+    margin-left: 1400px;
+    box-shadow: 8px -5px 5px rgba(0, 0, 0, 0.4);
+}
+#triangulo2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid transparent;
+    border-right: 80px solid #eb7134;
+    margin-left: 1400px;
+}
+#textoCamp{
+    padding-right: 140px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 80px;
+}
