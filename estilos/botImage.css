@@ -132,22 +132,51 @@
     position: absolute;
     width: 0;
     height: 0;
+    margin-top: 100px;
     border-bottom: 80px solid transparent;
-    border-left: 80px solid #eb7134;
+    border-left: 80px solid #daa520;
     margin-left: 1400px;
-    box-shadow: 8px -5px 5px rgba(0, 0, 0, 0.4);
 }
 #triangulo2{
     position: absolute;
     width: 0;
     height: 0;
+    margin-top: 100px;
     border-bottom: 80px solid transparent;
-    border-right: 80px solid #eb7134;
+    border-right: 80px solid #daa520;
     margin-left: 1400px;
 }
 #textoCamp{
     padding-right: 140px;
     text-align: justify;
     font-size: 20px;
-    margin-top: 80px;
+    margin-top: 70px;
+}
+#tituloCamp{
+    margin-bottom: -50px;
+    margin-left: 85px;
+}
+#botCamp{
+    height: 50px;
+    width: 620px;
+    border-radius: 3px;
+    border: #daa520 solid;
+    top: 65%;;
+    position: absolute;
+    font-size: 20px;
+    background-color: #d7d6d6;
+}
+#botCamp:hover{
+    border-color: #e8b638;
+}
+#botCamp:active{
+    border-color: #c8971b;
+}
+#faixa{
+    background-color: #daa520;
+    height: 5px;
+    width: 700px;
+    margin-left: -35px;
+    margin-top: 100px;
+    margin-left: -50px;
 }
