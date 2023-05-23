@@ -114,3 +114,9 @@ input::placeholder{
 #decorBot:hover{
     color: blue;
 }
+#textoInpCad{
+    display: inline;
+    margin-top: 80px;
+    margin-bottom: -50px;
+    color: white;
+}
