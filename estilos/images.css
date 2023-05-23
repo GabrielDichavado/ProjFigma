@@ -17,8 +17,21 @@
     transform: scaleX(-1);
     border-top-left-radius: 5%;
     border-bottom-right-radius: 5%;
+    border: 5px solid #daa520;
 }
 #imageCad{
     width: 100%;
     height: auto;
+}
+#hosp1{
+    border: 5px solid blue;
+    height: 680px;
+    margin-left: 230px;
+    box-shadow: 5px 15px 10px 5px rgba(0, 0, 0, 0.4);
+}
+#hosp2{
+    border: 5px solid blue;
+    height: 680px;
+    margin-left: 125px;
+    box-shadow: 5px 15px 10px 5px rgba(0, 0, 0, 0.4);
 }

@@ -41,3 +41,32 @@
     left: 10%;
     position: absolute;
 }
+#unidadesPos{
+    position: relative;
+    margin-top: 580px;
+    height: 700px;
+    width: 100%;
+}
+#unidadeTexto{
+    margin-top: -30px;
+    text-align: center;
+    font-size: 50px;
+}
+#posDivHospDir{
+    right: 0%;
+    position: absolute;
+    height: 650px;
+    width: 50%;
+}
+#posDivHospEsq{
+    left: 0%;
+    position: absolute;
+    height: 650px;
+    width: 50%;
+}
+#faixaUni{
+    margin-bottom: 50px;
+    height: 5px;
+    width: 1518px;
+    background-color: black;
+}
