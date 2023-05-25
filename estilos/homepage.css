@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+#ola{
+    background-color: aqua;
+    height: 8em;
+    width: 100%;
+}
+#bot1{
+    border-radius: 3px;
+    background-color: blue;
+    width: 510px;
+    height: 50px;
+}
