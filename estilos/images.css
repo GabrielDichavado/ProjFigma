@@ -2,3 +2,14 @@
     width: 100%;
     height: auto;
 }
+#imageLogo{
+    height: 8em;
+    width: 8em;
+    left: 50%;
+    margin-left: -4em;
+    position: absolute;
+}
+#imagePronto{
+    height: 9em;
+    width: 100%;
+}
