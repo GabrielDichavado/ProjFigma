@@ -49,3 +49,19 @@
     width: auto;
     position: relative;
 }
+#iconeUser{
+    margin-top: -1.5em;
+    padding: 0.5em;
+    margin-left: 91.5em;
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+    background-color: rgb(25, 25, 25);
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+#iconeUser:hover{
+    background-color: rgb(64, 64, 64);
+}
+#iconeUser:active{
+    background-color: rgb(20, 20, 20);
+}
