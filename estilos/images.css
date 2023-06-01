@@ -1,19 +1,19 @@
-#imageCad{
+#imageCad {
     width: 100%;
     height: auto;
 }
-#imageLogo{
+#imageLogo {
     height: 8em;
     width: 8em;
     left: 50%;
     margin-left: -4em;
     position: absolute;
 }
-#imagePronto{
+#imagePronto {
     height: 9em;
     width: 100%;
 }
-#imageCAMP{
+#imageCAMP {
     margin-left: 2em;
     margin-top: 2em;
     transform: scaleX(-1);
@@ -21,4 +21,31 @@
     width: 45em;
     border-radius: 0.4em;
     box-shadow: -5px 5px 4px 4px rgba(0, 0, 0, 0.3);
+}
+#imageHOSP1 {
+    margin-top: 7em;
+    margin-left: 2em;
+    position: relative;
+    height:  28.125em;
+    width: 19em;
+    border-radius: 0.4em;
+    box-shadow: 5px 5px 4px 4px rgba(0, 0, 0, 0.3);
+}
+#imageHOSP2 {
+    margin-top: 7em;
+    margin-left: 6.5em;
+    position: relative;
+    height:  28.125em;
+    width: 19em;
+    border-radius: 0.4em;
+    box-shadow: 5px 5px 4px 4px rgba(0, 0, 0, 0.3);
+}
+#imageMAPS{
+    border: 0.25em grey solid;
+    border-radius: 0.4em;
+    margin-left: 2em;
+    margin-top: 6.5em;
+    height: 26em;
+    width: auto;
+    position: relative;
 }

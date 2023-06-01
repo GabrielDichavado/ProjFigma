@@ -1,4 +1,4 @@
-#blocoCad{
+#blocoCad {
     height: 500px;
     width: 1000px;
     background-color: rgb(0, 0, 0, 0.65);
@@ -9,7 +9,7 @@
     margin-left: -500px;
     border-radius: 5px;
 }
-#inpCad{
+#inpCad {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: #e6e7e9;
@@ -21,7 +21,7 @@
     height: 40px;
     width: 300px;
 }
-#inpCadlist{
+#inpCadlist {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: #e6e7e9;
@@ -33,10 +33,10 @@
     height: 50px;
     width: 310px;
 }
-input::placeholder{
+input::placeholder {
     color: black;
 }
-#blocoPosCad{
+#blocoPosCad {
     height: 480px;
     width: 980px;
     position: relative;
@@ -45,7 +45,7 @@ input::placeholder{
     margin-left: -490px;
     margin-top: -240px;
 }
-#botCad{
+#botCad {
     top: 1px;
     color: white;
     background-color: rgb(0, 0, 171);
@@ -58,20 +58,20 @@ input::placeholder{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-#botCad:hover{
+#botCad:hover {
     background-color: rgb(0, 0, 133);
 }
-#botCad:active{
+#botCad:active {
     background-color: rgb(0, 0, 78);
 }
-#test{
+#test {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
     margin-bottom: -25px;
     font-size: 20px;
 }
-#testAdm{
+#testAdm {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -81,7 +81,7 @@ input::placeholder{
     margin-left: 20px;
     position: relative;
 }
-#testMed{
+#testMed {
     font-size: 15px;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
@@ -91,7 +91,7 @@ input::placeholder{
     margin-left: 15px;
     position: relative;
 }
-#testLog{
+#testLog {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -101,21 +101,21 @@ input::placeholder{
     margin-left: 15px;
     position: relative;
 }
-#divBaixo{
+#divBaixo {
     margin-top: 25px;
     position: absolute;
     width: 1000px;
     margin-left: -10px;
 }
-#decorBot{
+#decorBot {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-#decorBot:hover{
+#decorBot:hover {
     color: blue;
 }
-#textoInpCad{
+#textoInpCad {
     display: inline;
     margin-top: 80px;
     margin-bottom: -50px;
