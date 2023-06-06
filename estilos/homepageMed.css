@@ -1,11 +1,24 @@
+#cabecalho {
+    background-color: black;
+    height: 9em;
+    width: 100%;
+    position: absolute;
+}
+#navBAR {
+    background-color: rgb(48, 48, 48);
+    height: 3.5em;
+    width: 100%;
+    position: absolute;
+    margin-top: 9em;
+}
 #posicaoBotM {
     width: 99%;
     height: 3.4em;
     position: relative;
     top: 50%;
     left: 50%;
-    margin-left: -47em;
-    margin-top: -1.5em;
+    margin-left: -50em;
+    margin-top: -1.75em;
 }
 #botaoM {
     border-radius: 3px;
@@ -14,8 +27,45 @@
     color: white;
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
     background-color: rgb(25, 25, 25);
-    width: 20em;
+    width: 25em;
     height: 3.4em;
     text-align: center;
-    margin-left: 6.25em;
+    margin-left: 11em;
+    margin-top: 0.3em;
+}
+#botaoM:hover {
+    background-color: rgb(64, 64, 64);
+}
+#botaoM:active {
+    background-color: rgb(20, 20, 20);
+}
+#iconeUser{
+    margin-top: -1.2em;
+    padding: 0.5em;
+    margin-left: 91.5em;
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+    background-color: rgb(25, 25, 25);
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+#iconeUser:hover{
+    background-color: rgb(64, 64, 64);
+}
+#iconeUser:active{
+    background-color: rgb(20, 20, 20);
+}
+#divEsquerdaM {
+    margin-top: 12.5em;
+    height: 34em;
+    width: 50%;
+    left: 0px;
+    position: absolute;
+}
+#divDireitaM {
+    margin-top: 12.5em;
+    height: 34em;
+    width: 50%;
+    right: 0px;
+    position: absolute;
 }

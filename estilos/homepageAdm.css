@@ -1,4 +1,16 @@
-#posicaoBotA {
+#cabecalho {
+    background-color: black;
+    height: 9em;
+    width: 100%;
+    position: absolute;
+}
+#navBAR {
+    background-color: rgb(48, 48, 48);
+    height: 3.5em;
+    width: 100%;
+    position: absolute;
+    margin-top: 9em;
+}#posicaoBotA{
     width: 99%;
     height: 3.4em;
     position: relative;
@@ -7,7 +19,7 @@
     margin-left: -47em;
     margin-top: -1.5em;
 }
-#botaoA {
+#botaoA{
     border-radius: 3px;
     padding-top: 0.3em;
     border: none;
@@ -18,4 +30,10 @@
     height: 3.4em;
     text-align: center;
     margin-left: 6.25em;
+}
+#botaoA:hover {
+    background-color: rgb(64, 64, 64);
+}
+#botaoA:active {
+    background-color: rgb(20, 20, 20);
 }
