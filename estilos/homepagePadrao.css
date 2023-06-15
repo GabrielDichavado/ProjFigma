@@ -184,3 +184,91 @@
     width: 41em;
     height: 5em;
 }
+#segPar{
+    top: 48.5em;
+    background-color: grey;
+    position: absolute;
+    height: 23em;
+    width: 100%;
+}
+#tex1{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: inline-block;
+    margin-top: 7.5em;
+    margin-left: 4.5em;
+    color: #e5cfbd ;
+}
+#tex2{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: inline-block;
+    margin-top: 7.5em;
+    margin-left: 5.5em;
+    color: #e5cfbd;
+}
+#tex3{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: inline-block;
+    margin-top: 7.5em;
+    margin-left: 3.5em;
+    color: #e5cfbd;
+}
+#texBai1{
+    text-align: justify;
+    position: absolute;
+    display: inline-block;
+    margin-top: 14em;
+    margin-right: 5em;
+    margin-left: 5em;
+    color: #e5cfbd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#texBai2{
+    text-align: justify;
+    position: absolute;
+    display: inline-block;
+    margin-top: 14em;
+    margin-right: 5em;
+    margin-left: 5em;
+    color: #e5cfbd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#texBai3{
+    text-align: justify;
+    position: absolute;
+    display: inline-block;
+    margin-top: 14em;
+    margin-right: 5em;
+    margin-left: 5em;
+    color: #e5cfbd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#divEs{
+    position: relative;
+    left: 0.3em;
+    display: inline-block;
+    height: 24.5em;
+    width: 33%;
+}
+#divMei{
+    
+    position: relative;
+    margin-top: 0.2em;
+    left: 0.3em;
+    display: inline-block;
+    height: 24.5em;
+    width: 33%;
+}
+#divDire{
+    position: relative;
+    margin-top: 0.2em;
+    left: 0.3em;
+    display: inline-block;
+    height: 24.5em;
+    width: 33%;
+}
