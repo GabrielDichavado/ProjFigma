@@ -1,0 +1,238 @@
+#cabecalho {
+    background-color: black;
+    height: 9em;
+    width: 100%;
+    position: absolute;
+}
+#navBAR {
+    background-color: rgb(48, 48, 48);
+    height: 3.5em;
+    width: 100%;
+    position: absolute;
+    margin-top: 9em;
+}
+#posicaoBotM {
+    width: 99%;
+    height: 3.4em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    left: -50em;
+    margin-top: -1.75em;
+}
+#botaoCONM {
+    border-radius: 3px;
+    padding-top: 0.3em;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
+    background-color: rgb(25, 25, 25);
+    width: 25em;
+    height: 3.4em;
+    text-align: center;
+    left: 9.75em;
+    margin-top: 0.3em;
+}
+#botaoCONM:hover {
+    background-color: rgb(64, 64, 64);
+}
+#botaoCONM:active {
+    background-color: rgb(20, 20, 20);
+}
+#iconeUserCONM{
+    margin-top: -2.65em;
+    padding: 0.5em;
+    left: 91.5em;
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+    background-color: rgb(25, 25, 25);
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+#iconeUserCONM:hover{
+    background-color: rgb(64, 64, 64);
+}
+#iconeUserCONM:active{
+    background-color: rgb(20, 20, 20);
+}
+#bloco1{
+    border-radius: 0.5em;
+    background-color: rgb(0, 6, 122);
+    position: absolute;
+    height: 4.5em;
+    width: 20em;
+    left: 50%;
+    top: 1em;
+    margin-left: -10em;
+}
+#blocoLADO{
+    height: 4.5em;
+    width: 6em;
+    position: absolute;
+    background-color: rgb(39, 33, 33);
+    left: 28em;
+    top: 1em;
+}
+#inpt{
+    font-size: 1.5em;
+    margin-top: 0.25em;
+    margin-left: 0.50em;
+    background-color: rgb(0, 6, 122);
+    height: 2.5em;
+    width: 5em;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+#inpt2{
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    margin-left: -0.8em;
+    font-size: 1.5em;
+    background-color: rgb(33, 41, 192);
+    height: 2.5em;
+    width: 8em;
+    border: none;
+    color: rgb(191, 191, 191);
+}
+#inpt3{
+    border-radius: 0.3em;
+    background-color: rgb(0, 6, 122);
+    top: 0.7em;
+    left: 1.75em;
+    height: 4em;
+    width: 4em;
+    color: white;
+    border: none;
+    position: relative;
+}
+#bloco2{
+    background-color: rgb(0, 6, 122);
+    position: absolute;
+    height: 4.5em;
+    width: 33em;
+    left: 50%;
+    top: 7.5em;
+    margin-left: -16.5em;
+}
+#bloco3{
+    background-color: rgb(0, 6, 122);
+    position: absolute;
+    height: 4.5em;
+    width: 33em;
+    left: 50%;
+    top: 11em;
+    margin-left: -16.5em;
+}
+#bloco4{
+    background-color: rgb(0, 6, 122);
+    position: absolute;
+    height: 4.5em;
+    width: 33em;
+    left: 50%;
+    top: 16em;
+    margin-left: -16.5em;
+}
+#bloco5{
+    background-color: rgb(0, 6, 122);
+    position: absolute;
+    height: 4.5em;
+    width: 33em;
+    left: 50%;
+    top: 21em;
+    margin-left: -16.5em;
+}
+#bloco6{
+    background-color: rgb(0, 6, 122);
+    position: absolute;
+    height: 4.5em;
+    width: 33em;
+    left: 50%;
+    top: 26em;
+    margin-left: -16.5em;
+}
+#inptHist{
+    font-size: 1.5em;
+    background-color: rgb(33, 41, 192);
+    margin-top: 0.25em;
+    margin-left: 0.25em;
+    height: 2.5em;
+    width: 21.5em;
+    border: none;
+    color: rgb(228, 228, 228);
+    display: inline-block;
+}
+#espacoBaixoD{
+    height: 34em;
+    width: 100%;
+    top: 12.5em;
+    position: absolute;
+    left: 0%;
+}
+#espacoBaixoE{
+    height: 34em;
+    width: 50%;
+    right: 0%;
+    background-color: chocolate;
+    margin-top: 12.5em;
+    position: absolute;
+}
+
+#espacoInfo{
+    top: 0em;
+    left: 50%;
+    margin-left: -17.5em;
+    box-shadow: 0em 0em 2em 0.5em black;
+    border-radius: 0.3em;
+    background-color: rgb(39, 33, 33);
+    height: 32em;
+    width: 35em;
+    position: relative;
+    display: inline-block;
+}
+#espacoHist{
+    background-color: brown;
+    height: 32em;
+    width: 40em;
+    top: 1.5em;
+    left: 4.5em;
+    position: relative;
+    display: inline-block;
+}
+#tabelaLinha{
+   
+    background-color: aqua;
+}
+#tabelaTH{
+    border: 1px solid black;
+    background-color: blue;
+    height: 4.5em;
+    width: 8.5em;
+}
+#tabelaTD{
+    
+    border: 1px solid black;
+    background: rgb(33, 41, 192);
+    height: 4em;
+}
+.carousel-control-prev{
+    height: 5em;
+    width: 20em;
+    left: 22.5em;
+    top: 20em;
+    position: absolute;
+}
+.carousel-control-next{
+    height: 20em;
+    width: 20em;
+    right: 22.5em;
+    top: 4em;
+    position: absolute;
+}
+.carousel-inner{
+    left: 0.5em;
+    top: 5em;
+}
+#demo{
+    top: 20em;
+    position: relative;
+}

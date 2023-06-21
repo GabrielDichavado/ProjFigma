@@ -9,4 +9,6 @@
 body { 
     margin: 0px;
     overflow-x: hidden; 
+    padding: 0px;
+    border: 0px;
 }

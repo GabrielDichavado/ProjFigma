@@ -1,7 +1,7 @@
 .quadrado {
     width: 795px;
     height: 575px;
-    background-color: #ad998a;
+    background-color: #0e0e0e;
     position: absolute;
     border-radius: 10px;
 }
@@ -12,7 +12,7 @@
     top: 0;
     left: 0;
     margin-top: 15px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .quadrado-interno1 {
     width: 200px;
@@ -35,7 +35,7 @@
 .quadrado-interno2 {
     width: 200px;
     height: 60px;
-    background-color: rgb(0, 7, 140);
+    background-color: #415b97;
     margin-top: 10px;
     margin-left: 30px;
     display: flex;
@@ -45,14 +45,14 @@
 .resultado2 {
     width: 518px;
     height: 60px;
-    background-color: blue;
+    background-color: #86aedb;
     margin-left: 750px;
     position: absolute;
 }
 .quadrado-interno3 {
     width: 200px;
     height: 60px;
-    background-color: rgb(0, 7, 140);
+    background-color: #415b97;
     margin-top: 10px;
     margin-left: 30px;
     display: flex;
@@ -62,14 +62,14 @@
 .resultado3 {
     width: 518px;
     height: 60px;
-    background-color: blue;
+    background-color: #86aedb;
     margin-left: 750px;
     position: absolute;
 }
 .quadrado-interno4 {
     width: 200px;
     height: 60px;
-    background-color:rgb(0, 7, 140);
+    background-color:#415b97;
     margin-top: 10px;
     margin-left: 30px;
     display: flex;
@@ -79,14 +79,14 @@
 .resultado4 {
     width: 518px;
     height: 60px;
-    background-color: blue;
+    background-color: #86aedb;
     margin-left: 750px;
     position: absolute;
 }
 .quadrado-interno5 {
     width: 200px;
     height: 60px;
-    background-color: rgb(0, 7, 140);
+    background-color: #415b97;
     margin-top: 10px;
     margin-left: 30px;
     display: flex;
@@ -96,7 +96,7 @@
 .resultado5 {
     width: 518px;
     height: 60px;
-    background-color: blue;
+    background-color: #86aedb;
     margin-left: 750px;
     position: absolute; 
 }

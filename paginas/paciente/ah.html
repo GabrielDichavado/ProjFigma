@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    
+#tabelaLinha{
+   
+    background-color: aqua;
+}
+#tabelaTH{
+    border: 1px solid black;
+    background-color: blue;
+    height: 4.5em;
+    width: 8.5em;
+}
+#tabelaTD{
+    
+    border: 1px solid black;
+    background: rgb(33, 41, 192);
+    height: 4em;
+}
+
+#espacoInfo{
+    left: 50%;
+    margin-left: -17.5em;
+    box-shadow: 0em 0em 2em 0.5em black;
+    border-radius: 0.3em;
+    background-color: rgb(39, 33, 33);
+    height: 32em;
+    width: 35em;
+    margin-top: 1.5em;
+    position: relative;
+    display: inline-block;
+}
+.carousel-control-prev{
+    height: 20em;
+    width: 20em;
+    left: 22.5em;
+    top: -6em;
+}
+.carousel-control-next{
+    height: 20em;
+    width: 20em;
+    right: 22.5em;
+    top: -6em;
+}
+.carousel-inner{
+    left: 0.5em;
+    top: 5em;
+}
+  </style>
+</head>
+<body style="background-color: aqua;">
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div id="espacoInfo">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <table id="tabelaLinha">
+                <tr>
+                    <th id="tabelaTH">CU</th>
+                    <th id="tabelaTH">Tipo de exame ou consulta</th>
+                    <th id="tabelaTH">Data</th>
+                    <th id="tabelaTH">Hora</th>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+            </table>
+        </div>
+        <div class="carousel-item">
+            <table id="tabelaLinha">
+                <tr>
+                    <th id="tabelaTH">CUD</th>
+                    <th id="tabelaTH">Tipo de exame ou consulta</th>
+                    <th id="tabelaTH">Data</th>
+                    <th id="tabelaTH">Hora</th>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+            </table>
+        </div>
+        <div class="carousel-item">
+            <table id="tabelaLinha">
+                <tr>
+                    <th id="tabelaTH">CUE</th>
+                    <th id="tabelaTH">Tipo de exame ou consulta</th>
+                    <th id="tabelaTH">Data</th>
+                    <th id="tabelaTH">Hora</th>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+                <tr id="tabelaLinha">
+                    <td id="tabelaTD">Médico responsável</td>
+                    <td id="tabelaTD">Tipo de exame ou consulta</td>
+                    <td id="tabelaTD">Data</td>
+                    <td id="tabelaTD">Data</td>
+                </tr>
+            </table>
+        </div>
+  </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3>Carousel Example</h3>
+  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+</div>
+
+</body>
+</html>
