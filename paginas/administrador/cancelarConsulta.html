@@ -32,8 +32,6 @@
     <!-- The slideshow/carousel -->
     <div id="espacoInfo">
         <a href="homepagePaci.html"><img src="../../images/userlmn_04acd6c136232510eb2c916725381641.png" id="setaVoltar"></a>
-        <input type="button" value="Nome:" id="inpt">
-        <input type="button" value="Fulado Ciglano" id="inpt2">
                 <table id="tabelaLinha">
                     <tr>
                         <th id="tabelaTH">Médico responsável</th>
@@ -79,9 +77,6 @@
         <button id="butaofecha" onclick="openPopup2(),closePopup()">Sim</button>
         <button id="butaofecha" onclick="closePopup()">Não</button>
   </div>
-  <div id="popup2">
-    <p>Sucesso!</p>
-  </div>
   <script>
     function openPopup(){
         document.getElementById("popup");
@@ -92,14 +87,8 @@
         popup.style.display = "none";
     }
     function openPopup2(){
-        document.getElementById("popup2");
-        popup.style.display ="block";
+        alert("Cancelado com sucesso!");
     }
-    function closePopup2(){
-        document.getElementById("popup2");
-        popup.style.display = "none";
-    }
-
   </script>
 </body>
 </html>
